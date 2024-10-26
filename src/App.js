@@ -26,19 +26,19 @@ function App() {
       <Routes>
         <Route exact path="/" element={<NavHeader />}>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/services" element={<Services />} />
-          <Route exact path="/services-consultation" element={<ServicesConsultation/>} />
-          <Route exact path="/services-exercise-counseling" element={<ServicesExerciseCounseling />} />
-          <Route exact path="/services-functional-nutrition-and-supplements" element={<ServicesFunctionalNutritionAndSupplements />} />
-          <Route exact path="/services-integrative-wellness-and-lifestyle-medicine" element={<ServicesIntegrativeWellnessAndLifestyleMedicine />} />
-          <Route exact path="/services-non-invasive-skin-and-body-treatments" element={<ServicesNonInvasiveSkinAndBodyTreatments />} />
-          <Route exact path="/specialty-health-and-wellness" element={<SpecialtyHealthAndWellness />} />
-          <Route exact path="/specialty-womens-health" element={<SpecialtyWomansHealth />} />
-          <Route exact path="/specialty-chronic-conditions" element={<SpecialtyChronicConditions />} />
-          <Route exact path="/specialty-weight-management" element={<SpecialtyWeightManagement />} />
-          <Route exact path="/specialty-beauty-and-healthy-aging" element={<SpecialtyBeautyAndHealthyAging />} />
-          <Route exact path="/specialty-children-and-teens-health" element={<SpecialtyChildrenAndTeensHealth />} />
+          <Route exact path="/about.html" element={<About />} />
+          <Route exact path="/services.html" element={<Services />} />
+          <Route exact path="/services-consultation.html" element={<ServicesConsultation/>} />
+          <Route exact path="/services-exercise-counseling.html" element={<ServicesExerciseCounseling />} />
+          <Route exact path="/services-functional-nutrition-and-supplements.html" element={<ServicesFunctionalNutritionAndSupplements />} />
+          <Route exact path="/services-integrative-wellness-and-lifestyle-medicine.html" element={<ServicesIntegrativeWellnessAndLifestyleMedicine />} />
+          <Route exact path="/services-non-invasive-skin-and-body-treatments.html" element={<ServicesNonInvasiveSkinAndBodyTreatments />} />
+          <Route exact path="/specialty-health-and-wellness.html" element={<SpecialtyHealthAndWellness />} />
+          <Route exact path="/specialty-womens-health.html" element={<SpecialtyWomansHealth />} />
+          <Route exact path="/specialty-chronic-conditions.html" element={<SpecialtyChronicConditions />} />
+          <Route exact path="/specialty-weight-management.html" element={<SpecialtyWeightManagement />} />
+          <Route exact path="/specialty-beauty-and-healthy-aging.html" element={<SpecialtyBeautyAndHealthyAging />} />
+          <Route exact path="/specialty-children-and-teens-health.html" element={<SpecialtyChildrenAndTeensHealth />} />
         </Route>
       </Routes>
       </BrowserRouter>

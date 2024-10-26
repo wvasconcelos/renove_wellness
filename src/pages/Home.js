@@ -23,7 +23,7 @@ export default function HomePage() {
               <div className="container">
                 <h1 className="home-titles">Specialties</h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                  <a href='/specialty-health-and-wellness' className="col home-thumb">
+                  <a href='/specialty-health-and-wellness.html' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbHealthAndWellness} alt="Health and Wellness" />
                     <div className="card-body">
@@ -33,7 +33,7 @@ export default function HomePage() {
                     </div>
                   </a>
                   
-                  <a href='/specialty-womens-health' className="col home-thumb">
+                  <a href='/specialty-womens-health.html' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbWomensHealth} alt="Woman's Health" />
                     <div className="card-body">
@@ -43,7 +43,7 @@ export default function HomePage() {
                     </div>
                   </a>
                   
-                  <a href="/specialty-chronic-conditions" className="col home-thumb">
+                  <a href="/specialty-chronic-conditions.html" className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbChronicConditions} alt="Chronic Conditions" />
                     <div className="card-body">
@@ -53,7 +53,7 @@ export default function HomePage() {
                     </div>
                   </a>
                   
-                  <a href='/specialty-weight-management' className="col home-thumb">
+                  <a href='/specialty-weight-management.html' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbWeightManagement} alt="Weight Management" />
                     <div className="card-body">
@@ -63,7 +63,7 @@ export default function HomePage() {
                     </div>
                   </a>
                   
-                  <a href='/specialty-beauty-and-healthy-aging' className="col home-thumb">
+                  <a href='/specialty-beauty-and-healthy-aging.html' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbBeautyAndHealthyAging} alt="Beauty &amp; Healty Aging" />
                     <div className="card-body">
@@ -73,7 +73,7 @@ export default function HomePage() {
                     </div>
                   </a>
                   
-                  <a href='services-non-invasive-skin-and-body-treatments' className="col home-thumb">
+                  <a href='/services-non-invasive-skin-and-body-treatments.html' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbSkinBodyTreatment} alt="Non-Invasive Skin and Body Treatments" />
                     <div className="card-body">
