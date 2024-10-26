@@ -1,0 +1,24 @@
+{
+    "contact":{
+        "phone":"858-216-6864",
+        "Address":"n/a"
+    },
+    "menu":{
+        "home":"Home",
+        "about":"About",
+        "services":"Services",
+        "services_consultation":"Services: Consultation",
+        "services_exercise_counseling":"Services: Exercise Counseling",
+        "services_funtionsl_nutrition":"Services: Functional Nutrition and Supplements",
+        "services_integrative_wellness":"Services: Integrative Wellness and Lifestyle Medicine",
+        "services_non_invasive_treatment":"Services: Non-Invasive Skin and Body Treatments",
+        "specialty_beauty_aging":"Specialty: Beauty and Healthy Aging",
+        "specialty_children_health":"Specialty: Children and Teens Health",
+        "specialty_chronic_conditions":"Specialty: Chronic Conditions",
+        "specialty_health_and_wellness":"Specialty: Health and Wellness",
+        "specialty_weight_management":"Specialty: Weight Management",
+        "specialty_Womens Health":"Specialty: Womens Health"
+    },
+    "moto":"Renove Integrative Wellness and Beauty",
+    "back_to_top":"Back to Top"
+}
