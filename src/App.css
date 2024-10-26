@@ -53,6 +53,9 @@ body{
     font-weight:300;
 	text-align:center;
 }
+a.home-thumb{
+	text-decoration: none;
+}
 .home-thumb .card:hover{
 	cursor:pointer;
 	background-color: lavender;

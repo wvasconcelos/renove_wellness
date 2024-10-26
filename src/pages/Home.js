@@ -23,7 +23,7 @@ export default function HomePage() {
               <div className="container">
                 <h1 className="home-titles">Specialties</h1>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                  <div className="col home-thumb" onClick={() => window.location='specialty-health-and-wellness'}>
+                  <a href='/specialty-health-and-wellness' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbHealthAndWellness} alt="Health and Wellness" />
                     <div className="card-body">
@@ -31,9 +31,9 @@ export default function HomePage() {
                       <p className="card-text">Elaborate an integrative health plan that will lead you to optimal health.</p>
                     </div>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="col home-thumb" onClick={() => window.location='specialty-womens-health'}>
+                  <a href='/specialty-womens-health' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbWomensHealth} alt="Woman's Health" />
                     <div className="card-body">
@@ -41,9 +41,9 @@ export default function HomePage() {
                       <p className="card-text">Women support covering the whole spectrum of their healthcare needs.</p>
                     </div>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="col home-thumb" onClick={() => window.location='specialty-chronic-conditions'}>
+                  <a href="/specialty-chronic-conditions" className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbChronicConditions} alt="Chronic Conditions" />
                     <div className="card-body">
@@ -51,9 +51,9 @@ export default function HomePage() {
                       <p className="card-text">Help patients with chronic and metabolic conditions and their family members.</p>
                     </div>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="col home-thumb" onClick={() => window.location='specialty-weight-management'}>
+                  <a href='/specialty-weight-management' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbWeightManagement} alt="Weight Management" />
                     <div className="card-body">
@@ -61,9 +61,9 @@ export default function HomePage() {
                       <p className="card-text">Uncover the best strategies in nutrition and exercise plan to manage your weight.</p>
                     </div>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="col home-thumb" onClick={() => window.location='specialty-beauty-and-healthy-aging'}>
+                  <a href='/specialty-beauty-and-healthy-aging' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbBeautyAndHealthyAging} alt="Beauty &amp; Healty Aging" />
                     <div className="card-body">
@@ -71,9 +71,9 @@ export default function HomePage() {
                       <p className="card-text">Treatments to promote health and longevity, aging control, and beauty.</p>
                     </div>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="col home-thumb" onClick={() => window.location='services-non-invasive-skin-and-body-treatments'}>
+                  <a href='services-non-invasive-skin-and-body-treatments' className="col home-thumb">
                     <div className="card shadow-sm">
                     <img src={thumbSkinBodyTreatment} alt="Non-Invasive Skin and Body Treatments" />
                     <div className="card-body">
@@ -81,7 +81,7 @@ export default function HomePage() {
                       <p className="card-text">Skin tightening procedures that restores and maintain your natural collagen production.</p>
                     </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
