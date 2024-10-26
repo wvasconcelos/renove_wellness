@@ -6,7 +6,7 @@ export default function NavFooter() {
     return (
         <footer className="content">
             <div className="text-body-secondary py-5">
-                <p className="float-end mb-1"><span>{en.back_to_top}</span></p>
+                <p className="float-end mb-1"><a href="#">{en.back_to_top}</a></p>
                 <p className="mb-1">{en.moto} <sup>&copy;</sup> {date.getFullYear()}</p>
             </div>
         </footer>
